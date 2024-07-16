@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RynShop</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .product {
+            flex: 1 1 calc(33.333% - 10px);
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        .menu-numbers ul {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            justify-content: center; /* Tambahkan properti ini */
+        }
+        .menu-numbers li {
+            margin: 0 5px;
+        }
+        .menu-numbers a {
+            text-decoration: none;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>RynShop</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="wanita.html">Wanita</a></li>
+                <li><a href="#">Pria</a></li>
+                <li><a href="#">Anak-anak</a></li>
+                <li><a href="#">Sale</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Cari produk...">
+            <button>Cari</button>
+        </div>
+    </header>
+    <main>
+        <section class="banner">
+            <img src="banner.jpg" alt="Banner Promo">
+        </section>
+        <section class="products">
+            <h2>Produk Terbaru</h2>
+            <div class="container">
+                <div class="product">
+                    <a href="pembayaran.html">
+                        <img src="product1.jpg" alt="Produk 1">
+                        <h3>Produk 1</h3>
+                        <p>Rp 100.000</p>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="pembayaran.html">
+                        <img src="product2.jpg" alt="Produk 2">
+                        <h3>Produk 2</h3>
+                        <p>Rp 200.000</p>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="pembayaran.html">
+                        <img src="product3.jpg" alt="Produk 3">
+                        <h3>Produk 3</h3>
+                        <p>Rp 300.000</p>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="pembayaran.html">
+                        <img src="product4.jpg" alt="Produk 4">
+                        <h3>Produk 4</h3>
+                        <p>Rp 400.000</p>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="pembayaran.html">
+                        <img src="product5.jpg" alt="Produk 5">
+                        <h3>Produk 5</h3>
+                        <p>Rp 500.000</p>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="pembayaran.html">
+                        <img src="product6.jpg" alt="Produk 6">
+                        <h3>Produk 6</h3>
+                        <p>Rp 600.000</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="menu-numbers">
+                <ul>
+                    <li><a href="page1.html">1</a></li>
+                    <li><a href="page2.html">2</a></li>
+                    <li><a href="page3.html">3</a></li>
+                    <li><a href="page4.html">4</a></li>
+                    <li><a href="page5.html">5</a></li>
+                    <li><a href="page6.html">6</a></li>
+                    <li><a href="page7.html">7</a></li>
+                    <li><a href="page8.html">8</a></li>
+                    <li><a href="page9.html">9</a></li>
+                    <li><a href="page10.html">10</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="additional-content">
+            <h2>Konten Tambahan</h2>
+            <h3>Hubungi Kami</h3>
+            <p>Jika Anda memiliki pertanyaan atau membutuhkan bantuan, silakan hubungi kami melalui email di support@zaloraclone.com atau telepon di (021) 123-4567.</p>
+            
+            <h3>Cara Pemesanan</h3>
+            <p>Untuk memesan produk, pilih produk yang Anda inginkan, tambahkan ke keranjang belanja, dan ikuti langkah-langkah di halaman checkout untuk menyelesaikan pembelian.</p>
+            
+            <h3>Jasa Pengiriman</h3>
+            <div class="shipping-images">
+                <img src="jasa_pengiriman1.jpg" alt="Jasa Pengiriman 1">
+                <img src="jasa_pengiriman2.jpg" alt="Jasa Pengiriman 2">
+                <img src="jasa_pengiriman3.jpg" alt="Jasa Pengiriman 3">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Zalora Clone. All rights reserved.</p>
+        <section>
+            <h2>Tentang Produk</h2>
+            <p>Kami menawarkan berbagai produk fashion terbaru untuk pria, wanita, dan anak-anak. Produk kami berkualitas tinggi dan mengikuti tren terkini.</p>
+        </section>
+        <section>
+            <h2>Tentang Website</h2>
+            <p>Website ini adalah klon dari Zalora, dibuat untuk tujuan edukasi dan demonstrasi. Semua konten dan gambar adalah fiktif.</p>
+        </section>
+    </footer>
+</body>
+</html>
